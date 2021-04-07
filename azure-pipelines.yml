@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: bagofnails_agents
 strategy:
   matrix:
     Python27:
