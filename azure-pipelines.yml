@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: bagofnails_agents
+  vmImage: myAibGalleryVM
 strategy:
   matrix:
     Python27:
